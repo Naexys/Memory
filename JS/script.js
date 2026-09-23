@@ -58,7 +58,7 @@ function handleCardClick(card) {
 
     else if (secondCard == null) {
         secondCard = card;
-        secondCard.innerHTML = `<img src=${secondCard.dataset.value} class="card-img-top" alt="Carte 1"/>`;
+        secondCard.innerHTML = `<img src=${secondCard.dataset.value} class="card-img-top" alt="Carte 2"/>`;
         moves++;
         movesCpt.textContent = `${moves}`;
         lockBoard = true;
