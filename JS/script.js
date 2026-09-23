@@ -51,14 +51,14 @@ function handleCardClick(card) {
             isFirst = false;
         }
         firstCard = card;
-        firstCard.innerHTML = `<img src=${firstCard.dataset.value} class="card-img-top"/>`;
+        firstCard.innerHTML = `<img src=${firstCard.dataset.value} class="card-img-top" alt="Carte 1"/>`;
         moves++;
         movesCpt.textContent = `${moves}`;
     }
 
     else if (secondCard == null) {
         secondCard = card;
-        secondCard.innerHTML = `<img src=${secondCard.dataset.value} class="card-img-top"/>`;
+        secondCard.innerHTML = `<img src=${secondCard.dataset.value} class="card-img-top" alt="Carte 1"/>`;
         moves++;
         movesCpt.textContent = `${moves}`;
         lockBoard = true;
